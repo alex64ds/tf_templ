@@ -55,7 +55,3 @@ resource "aws_instance" "mi_ec2" {
     }
 }
 
-output "public_ip" {
-    description = "IP publica de la instancia"
-    value = aws_instance.mi_ec2.public_ip
-}
